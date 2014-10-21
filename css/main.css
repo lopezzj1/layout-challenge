@@ -7,6 +7,39 @@ body {
 	font-weight: 300;
 }
 
+article {
+	background-image: url('../img/ricepaper_v3.png');
+	opacity: 0.9;
+}
+
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px;
+	border-bottom-color: #EA4A00;
+	border-bottom-style: solid;
+	color: #FFFFFF;	
+	position: relative;
+}
+
+#hungry {
+	font-size: 120%;
+	font-weight: 300;
+	margin: 0px 0px 0px 0px;
+	color: #EEEEEE;
+
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top-width: 5px;
+	border-top-color: #EC791F;
+	border-top-style: solid;
+	font-size: 80%;
+	text-align: right;
+}
+
 @media (min-width: 992px) {
 	body {
 		background-image: url('../img/background.jpg');
@@ -29,7 +62,6 @@ body {
 	}
     
 }
-
 
 @media (max-width: 991px) {
 	header h3 {
@@ -80,27 +112,6 @@ h3 {
 	font-size: 125%;
 }
 
-article {
-	background-image: url('../img/ricepaper_v3.png');
-	opacity: 0.9;
-}
-
-header {
-	padding: 1em;
-	background-color: #FA5A0F;
-	border-bottom: 5px;
-	border-bottom-color: #EA4A00;
-	border-bottom-style: solid;
-	color: #FFFFFF;	
-	position: relative;
-}
-
-header h3 {
-	font-size: 120%;
-	font-weight: 300;
-	margin: 0px 0px 0px 0px;
-	color: #EEEEEE;
-}
 
 .generalinfo {
 	padding: 1em;
@@ -130,12 +141,5 @@ header h3 {
 	font-size: 90%;
 }
 
-footer {
-	padding: 1em;
-	background-color: #FC892F;
-	border-top-width: 5px;
-	border-top-color: #EC791F;
-	border-top-style: solid;
-	font-size: 80%;
-	text-align: right;
-}
+
+
