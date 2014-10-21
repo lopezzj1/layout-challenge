@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	font-family: 'Lato', 'Helvetica Neu', 'Helvetica', sans-serif;
+	font-size: 16px;	
+	font-weight: 300;
+}
+
+@media (min-width: 992px) {
+	body {
+		background-image: url('../img/background.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		font-size: 18px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	body {
+		margin: 20px 20px 20px 30%;
+	}
+
+	nav {
+		position: absolute;
+		right: 10px;
+		top: 10px;
+	}
+    
+}
+
+
+@media (max-width: 991px) {
+	header h3 {
+		display: none;
+	}
+}
+
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 1em;
+}
+
+
+a:link, a:visited { 
+	text-decoration:none;
+	color: #55E;
+}
+
+a:hover, input:focus {
+	color: #00E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', 'Helvetica Neu', 'Helvetica', sans-serif;
+}
+
+h1 {
+	font-size: 300%;
+	margin: 0px 0px 0px 0px;
+}
+
+h2, h3 {
+	color: #505050;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+article {
+	background-image: url('../img/ricepaper_v3.png');
+	opacity: 0.9;
+}
+
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px;
+	border-bottom-color: #EA4A00;
+	border-bottom-style: solid;
+	color: #FFFFFF;	
+	position: relative;
+}
+
+header h3 {
+	font-size: 120%;
+	font-weight: 300;
+	margin: 0px 0px 0px 0px;
+	color: #EEEEEE;
+}
+
+.generalinfo {
+	padding: 1em;
+}
+
+.menu {
+	padding: 1em;
+	background-color: rgba(207, 205, 140, 0.5);
+}
+
+.menu dt {
+	font-weight: 400;
+}
+
+.menu dd {
+	font-style: italic;
+	font-size: 80%;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.about {
+	padding: 1em;
+}
+
+.about p {
+	font-size: 90%;
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top-width: 5px;
+	border-top-color: #EC791F;
+	border-top-style: solid;
+	font-size: 80%;
+	text-align: right;
+}
